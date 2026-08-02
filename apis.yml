@@ -1,7 +1,28 @@
 aid: yesgraph
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yesgraph.png
 name: YesGraph
-description: YesGraph is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  YesGraph was a San Francisco startup (YC W13) that provided a referral and
+  contact-recommendation API. Its HTTP API and SDKs let mobile and web apps
+  upload a user's address book and receive a machine-learning ranked list of
+  which contacts a user should invite, powering smarter invite and referral
+  flows. Founded by Ivan Kirigin (ex-Dropbox, ex-Facebook), YesGraph worked
+  with companies including Airbnb, Atlassian, Gusto and Hired. In 2017 the
+  team and its social-graph technology joined Lyft to strengthen Lyft's
+  in-house referral program, and the public YesGraph API was deactivated on
+  August 31, 2017. This profile documents the historical developer surface;
+  the API is retired and no longer accepting traffic.
 url: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,44 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: retired
+x-retired: '2017-08-31'
+x-retired-reason: Team and technology acqui-hired by Lyft; public API deactivated 2017-08-31.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Referrals
+- Recommendations
+- Contacts
+- Social Graph
+- Growth
+- Machine Learning
+- Invitations
 apis: []
+common:
+- type: DomainSecurity
+  url: security/yesgraph-domain-security.yml
+- type: Packages
+  url: packages/yesgraph-packages.yml
+- type: SDKs
+  url: packages/yesgraph-packages.yml
+- type: Lifecycle
+  url: lifecycle/yesgraph-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/yesgraph-lifecycle.yml
+- type: Website
+  url: https://www.yesgraph.com/
+- type: GitHubOrganization
+  url: https://github.com/yesgraph
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

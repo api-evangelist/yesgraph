@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.yesgraph.com/
+summary: >-
+  The YesGraph referral/recommendation API is retired. On 2017-08-31 the
+  public API was deactivated after the YesGraph team and its social-graph
+  technology joined Lyft. This lifecycle record captures the historical
+  end-of-life; there is no active versioning, SLA, or status page.
+status: retired
+retired: true
+retirement:
+  announced_on: https://www.yesgraph.com/
+  sunset_date: '2017-08-31'
+  reason: Team and technology acqui-hired by Lyft; public API deactivated.
+versioning:
+  scheme: unknown
+  current: null
+  docs: null
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+deprecated_operations: []

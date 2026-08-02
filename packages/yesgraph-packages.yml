@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  Public package registries (PyPI, RubyGems, CocoaPods) searched for
+  first-party YesGraph client libraries. YesGraph shut down its public API on
+  2017-08-31; these packages remain published as historical artifacts and are
+  no longer maintained.
+notes: >-
+  The YesGraph GitHub org (github.com/yesgraph) still exists but its public
+  repositories (including python-yesgraph) have been removed. official:true
+  reflects first-party authorship recorded in the registry metadata at
+  publish time.
+packages:
+- language: python
+  registry: pypi
+  name: yesgraph
+  version: 0.6.6
+  url: https://pypi.org/project/yesgraph/
+  source: https://github.com/yesgraph/python-yesgraph
+  install: pip install yesgraph
+  author: YesGraph
+  official: true
+  status: unmaintained
+- language: swift
+  registry: cocoapods
+  name: YesGraph-iOS-SDK
+  version: 1.0.5
+  url: https://cocoapods.org/pods/YesGraph-iOS-SDK
+  install: "pod 'YesGraph-iOS-SDK'"
+  official: true
+  status: unmaintained
+- language: ruby
+  registry: rubygems
+  name: yesgraph
+  version: 0.1.0
+  url: https://rubygems.org/gems/yesgraph
+  install: gem install yesgraph
+  author: Mayank Juneja
+  official: false
+  status: community
