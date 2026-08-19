@@ -33,7 +33,7 @@ x-tier-reason: portfolio-lead
 x-status: retired
 x-retired: '2017-08-31'
 x-retired-reason: Team and technology acqui-hired by Lyft; public API deactivated 2017-08-31.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
